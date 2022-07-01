@@ -133,7 +133,7 @@ public class Main {
             for(int j = 0; j < patients.size(); j++){
                 Patient patient = patients.get(j); 
 
-                if(doctor.getSpeciality()== "Dermatology" && patient.getSymptom() == "ance"){
+                if(doctor.getSpeciality()== "Dermatology" && patient.getSymptom() == "acne"){
                     doctor.addPatient(patient);
                     patients.remove(patient);
                 } else if(doctor.getSpeciality()== "Pediatrics" && patient.getSymptom() == "colic"){
